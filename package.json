@@ -10,14 +10,20 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:taskjuggler.helloWorld"
+		"onLanguage:taskjuggler",
+		"onCommand:taskjuggler.activate"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"languages": [{
+			"id": "taskjuggler",
+			"extensions": [ ".tjp", ".tji" ],
+			"aliases": [ "TaskJuggler", "task-juggler" ]
+		}],
 		"commands": [
 			{
-				"command": "taskjuggler.helloWorld",
-				"title": "Hello World"
+				"command": "taskjuggler.activate",
+				"title": "Activate TaskJuggler"
 			}
 		]
 	},
