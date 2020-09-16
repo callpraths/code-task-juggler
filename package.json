@@ -18,7 +18,8 @@
 		"languages": [{
 			"id": "taskjuggler",
 			"extensions": [ ".tjp", ".tji" ],
-			"aliases": [ "TaskJuggler", "task-juggler" ]
+			"aliases": [ "TaskJuggler", "task-juggler" ],
+			"configuration": "./language-configuration.json"
 		}],
 		"commands": [
 			{
