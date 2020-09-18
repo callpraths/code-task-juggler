@@ -20,13 +20,7 @@
 			"extensions": [ ".tjp", ".tji" ],
 			"aliases": [ "TaskJuggler", "task-juggler" ],
 			"configuration": "./language-configuration.json"
-		}],
-		"commands": [
-			{
-				"command": "taskjuggler.activate",
-				"title": "Activate TaskJuggler"
-			}
-		]
+		}]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
